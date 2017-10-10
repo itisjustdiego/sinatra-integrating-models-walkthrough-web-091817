@@ -11,7 +11,7 @@ describe App do
       expect(page).to have_selector("form")
       expect(page).to have_field(:user_text)
     end
-  end
+  end 
 
   describe 'POST /' do
     it "displays string results" do
